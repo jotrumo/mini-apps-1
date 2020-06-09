@@ -2,6 +2,7 @@
 //creates array of all table data elements
 var player1 = 0;
 var player2 = 0;
+
 var arr = document.getElementsByTagName("td");
 
 /*Generates board from each td tag in the HTML table. Ordered from
@@ -19,10 +20,11 @@ for (let key in board) {
 
 //create eventListener for "Start Over" button
 var buttonElement = document.getElementById("btn");
-buttonElement.addEventListener('click', function(event) {
+buttonElement.addEventListener('click', function() {
   for (let key in board) {
     board[key].innerHTML = '-'; //resets tile chars
   };
+  console.log(player1, player2);
    //resets table
   nextCharX = true; //resets so first char is "X"
 });
