@@ -7,29 +7,31 @@
   </head>
   <body id='body'>
     <h1 id='heading'>Tic-Tac-Toe</h1>
-    <video autoplay loop muted>
-      <source src="assets/background.mp4" type="video/mp4">
-    </video>
-    <h2>
+    <div id="video">
+      <video autoplay loop muted>
+        <source src="assets/background.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div id="table">
       <table >
-        <tr>
+        <tr id="row">
           <td id="0"></td>
           <td id="1"></td>
           <td id="2"></td>
         </tr>
-        <tr>
+        <tr id='row'>
           <td id="3"></td>
           <td id="4"></td>
           <td id="5"></td>
         </tr>
-        <tr>
+        <tr id='row'>
           <td id="6"></td>
           <td id="7"></td>
           <td id="8"></td>
         </tr>
       </table>
       <button id="btn" type="button">Start Over</button>
-    </h2>
+    </div>
 
   <script src="app.js" charset="utf-8"></script>
   </body>

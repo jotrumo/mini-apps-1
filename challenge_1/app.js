@@ -25,7 +25,6 @@ buttonElement.addEventListener('click', function(event) {
   };
    //resets table
   nextCharX = true; //resets so first char is "X"
-  alert("Good Luck!");
 });
 
 //event handler for each board element
@@ -97,8 +96,6 @@ var checkCondition = function () {
   } else if (board[2].textContent === "O" && board[4].textContent === "O" && board[6].textContent === "O") {
     player2++;
     alert("Player 2 Wins!!!");
-  } else {
-    return;
   }
 };
 
