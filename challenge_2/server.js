@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.post('/', (req, res) => {
   var result = createCSV(req.body.data);
-  res.send(result);
+  res.send(`<p>${result}</p>`);
 });
 
 app.get('/', (req, res) => {

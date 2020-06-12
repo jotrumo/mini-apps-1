@@ -1,0 +1,10 @@
+table {
+  align-self: center;
+  border-color: lightblue;
+
+}
+
+td {
+  text-align: center;
+  background-color: lightgrey;
+}
