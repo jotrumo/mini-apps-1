@@ -16,6 +16,6 @@
     "sequelize": "^5.21.12"
   },
   "devDependencies": {
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.12"
   }
 }
